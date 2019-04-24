@@ -1,0 +1,258 @@
+/* ****************************************************************
+			FRONT E BACK-END BY GABRIEL A. BARBOSA
+			E-MAIL: gabrielbarbosaweb7@gmail.com
+			SITE: http://gabrieldaluz7.co.nf/
+			DATA INICIO: 01-05-2018
+**************************************************************** */
+
+/* Carregando as fontes */
+/*@import url("fontes/futura/bold/font.css");*/
+@import url("fontes/futura/book/font.css");
+@import url("fontes/futura/light/font.css");
+@import url("fontes/futura/medium/font.css");
+
+/* Reset */
+a, a:hover, a:visited, a:focus { text-decoration:none; }
+html, body { border:0; padding:0; margin:0; }
+.clear { clear:both; }
+
+/* Tags Html */
+html {  height: initial; }
+body { overflow-x:  hidden; position:relative;  }
+section { position:relative; visibility:hidden; }
+footer { background: #646464; padding-top:15px; padding-bottom:15px; visibility:hidden; }
+
+/* Containers */
+.container { position:relative; }
+
+/* Backgrounds */
+.background01 { background-image: linear-gradient(to bottom, #787878, white); background-size: 100% 100%; background-repeat: no-repeat; } 
+.background011 { background-image: linear-gradient(to bottom, #2f2f2f, #6c6c6c); background-size: 100% 100%; background-repeat: no-repeat; }
+.background022 { background-image: linear-gradient(to bottom, #2f2f2f, white); background-size: 100% 100%; background-repeat: no-repeat; }
+.background02 { background:#7c7c7c; }
+.background03 {     background-image: linear-gradient(to bottom, #787878 11%, white 62%);background-size: 100% 100%;background-repeat: no-repeat; }
+.background04 {        background-image:linear-gradient(to bottom, #787878 51%, white 102%); background-size: 100% 100%;background-repeat: no-repeat; }
+
+/* Div Loading */
+.loading { position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:9999; background:white; display:none; }
+
+/* Section */
+section.pageContainer { overflow:hidden; }
+
+
+/* Section:Menu */
+section#menu { position:relative;  display:none; overflow:hidden; }
+section#menu .davi-logo {     position: absolute;     left: 19.5%;     top: 7.9%;     z-index: 200; }
+section#menu .davi-logo img { width:313px; }
+section#menu .menu-button { position: absolute; right: 19%; top:7%;  z-index:200; }
+section#menu .menu-button i { cursor: pointer; color: #009cde; font-size: 40px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease;   -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; }
+section#menu .menu-button i:hover { color:white; }
+section#menu .davi-menu { position: relative; z-index:100; left:-7%; }
+section#menu .davi-menu img { width: 121%; }
+section#menu .menu-text { position: absolute; left: 49%; top: 7.5%; z-index: 200; }
+section#menu .menu-text a {  font-family: 'Futura Std Book'; font-style: italic; font-weight: 300; -webkit-transition: all 0.3s ease-in-out 0s;  transition: all 0.3s ease-in-out 0s; position:relative; left: 0px; display: table;    font-size: 21px;margin-bottom: 15px; color: white; }
+section#menu .menu-text a:hover { left: 8px; }
+section#menu .menu-text a:before { content: "";   position: absolute;   width: 100%;   height: 2px;   bottom: 0;   left: 0;   background-color: white;   visibility: hidden;   -webkit-transform: scaleX(0);   transform: scaleX(0);   }
+section#menu .menu-text a:hover:before {   visibility: visible;   -webkit-transform: scaleX(1);   transform: scaleX(1);   }
+
+/* Section:Home */
+section#home .davi-logo { position: absolute; left: 5%; top:100px; z-index:200; }
+section#home .davi-logo img { width:370px; }
+section#home .menu-button { position: absolute; right: 10%; top:100px;  z-index:200; }
+section#home .menu-button i { cursor: pointer; color: #009cde; font-size: 50px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease;   -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; }
+section#home .menu-button i:hover { color:white; }
+section#home .davi-home { position: relative; left: 28%; z-index:100; }
+section#home .davi-home img { width:130%; }
+
+/* Section:Biografia */
+section#biografia { position: relative;background: url(../img/bg_biografia.jpg);background-size: cover;background-position: top; }
+section#biografia .containerBody { padding-top: 450px;     padding-bottom: 125px; }
+section#biografia .davi-logo { position: absolute; left: 5%; top:100px; z-index:200; }
+section#biografia .davi-logo img { width:315px; }
+section#biografia .menu-button { position: absolute; right: 10%; top:100px;  z-index:200; }
+section#biografia .menu-button i { cursor: pointer; color: #009cde; font-size: 50px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease;   -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; }
+section#biografia .menu-button i:hover { color:white; }
+section#biografia .davi-home {  font-family: 'Futura Std Book';    width: 100%;     max-width: 530px;     padding-left: 44px;     color: white;     font-size: 18px;     text-align: justify;     line-height: 32px;  }
+section#biografia .davi-home img { width:130%; }
+
+/* Section:Parceiros */
+section#parceiros { position: relative; background-size: cover;background-position: top; }
+section#parceiros .containerBody { position:relative; padding-top: 20px;     padding-bottom: 0px; }
+section#parceiros .davi-logo { position: absolute; left: 5%; top:100px; z-index:200; }
+section#parceiros .davi-logo img { width:315px; }
+section#parceiros .menu-button { position: absolute; right: 10%; top:100px;  z-index:200; }
+section#parceiros .menu-button i { cursor: pointer; color: #009cde; font-size: 50px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease;   -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; }
+section#parceiros .menu-button i:hover { color:white; }
+section#parceiros .davi-home {    position:relative; left:-29%; width: 100%;     max-width: 520px;       color: white;     font-size: 18px;     text-align: justify;     line-height: 32px;  }
+section#parceiros .davi-home > img { width:230%; }
+section#parceiros .logo1 {  position:absolute;  top: 602px; right: 66px;}
+section#parceiros .logo1 img { width:90%; }
+section#parceiros .logo2 {  position:absolute; top: 500px; right: 44px; }
+section#parceiros .logo2 img { width:83%; }
+section#parceiros .title {    font-family: 'Futura Std Book'; position: absolute; top: 310px; right: 112px; font-size: 36px; text-transform: uppercase; font-style: italic;  color: white; }
+
+/* Section:taemcasa */
+section#taemcasa { position: relative; background-size: cover;background-position: top; padding-bottom:90px; }
+section#taemcasa .menu-button { position: absolute; right: 10%; top:100px;  z-index:200; }
+section#taemcasa .menu-button i { cursor: pointer; color: #009cde; font-size: 50px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease;   -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; }
+section#taemcasa .menu-button i:hover { color:white; }
+section#taemcasa .containerBody { position:relative; padding-top: 20px; padding-bottom: 0px;     padding-left: 55px;}
+section#taemcasa .davi-capa { padding-top:75px; }
+section#taemcasa .davi-capa img { width:100%;transition: all 0.2s ease-out 0s; }
+section#taemcasa .davi-capa img:hover { transform: scale(1.01); }
+section#taemcasa .cdTitle {     padding-top: 415px; padding-bottom:10px; color: white;font-family: 'Futura Std Book';font-size: 16px; }
+section#taemcasa .player-controls { padding-top:14px; width:423px; }
+section#taemcasa .player-controls .bar1 { border-bottom:1px solid white; padding-bottom:5px; }
+section#taemcasa .player-controls .bar2 {  padding-top:14px; }
+section#taemcasa .player-controls .bar2 .col { display:inline-block; margin-right: 16.7%; }
+section#taemcasa .player-controls .bar2 .col:last-child { margin-right: 0px !important; }
+section#taemcasa .player-controls .bar2 img { transition: all 0.2s ease-out 0s; }
+section#taemcasa .player-controls .bar2 img:hover {  transform: scale(1.1); }
+section#taemcasa .player-controls .share { float:left; position:relative; top:-3px;}
+section#taemcasa .player-controls .share span { padding-left:5px; color:white; }
+section#taemcasa .player-controls .volume { float:right; display:none; }
+section#taemcasa .player-controls .volume img { vertical-align:bottom; }
+section#taemcasa .playlist { padding-top:30px; }
+section#taemcasa .playlist ul { padding-left:7px; list-style: none; padding-right:110px; }
+section#taemcasa .playlist ul a { position:relative; color:white; font-family: 'Futura Std Book';font-size: 16px; padding-top:12px; padding-bottom:12px; padding-left:6px; border-top:1px solid white; display:block; width:100%;  }
+section#taemcasa .playlist ul a span { position:absolute; top:10px; right:6px; }
+section#taemcasa .playlist ul a span.playing { display:none; }
+
+/* Section:Agenda */
+section#agenda { position: relative; background-size: cover;background-position: top; }
+section#agenda .containerBody { position:relative; padding-top: 20px;     padding-bottom: 0px; }
+section#agenda .davi-logo { position: absolute; left: 5%; top:100px; z-index:200; }
+section#agenda .davi-logo img { width:290px; }
+section#agenda .menu-button { position: absolute; right: 10%; top:100px;  z-index:200; }
+section#agenda .menu-button i { cursor: pointer; color: #009cde; font-size: 50px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease;   -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; }
+section#agenda .menu-button i:hover { color:white; }
+section#agenda .davi-home { z-index:10; position:relative; left:0%; width: 100%;   padding-top:43px;  max-width: 520px;       color: white;     font-size: 18px;     text-align: justify;     line-height: 32px;  }
+section#agenda .davi-home > img { width:155%; }
+section#agenda .title {    font-family: 'Futura Std Book'; position: absolute; top: 310px; right: 125px; font-size: 36px; text-transform: uppercase; font-style: italic;  color: white; }
+section#agenda .container-conteudo {    position: absolute;top: 500px;right: 101px; }
+section#agenda .container-conteudo .setaRolagem { position:absolute;      bottom: -36px;right: -11px; }
+section#agenda .conteudo { overflow-y:scroll;    max-height: 670px;padding: 10px; padding-right:20px;  text-align:right; }
+section#agenda .conteudo::before { display:none; z-index: 1;content: '';position: absolute;right: 1px;top: 0px;left: 0;height: 30px;background: -webkit-gradient(linear,left bottom,left top,from(rgba(26,29,44,0)),to(#454545));background: linear-gradient(to top,rgba(26,29,44,0),#454545);}
+section#agenda .conteudo::after { display:none; z-index:1;content: '';position: absolute;right: 1px;bottom: 0px;left: 0;height: 30px;background: -webkit-gradient(linear,left top,left bottom,from(rgba(26,29,44,0)),to(#616161));background: linear-gradient(to bottom,rgba(26,29,44,0),#616161);}
+section#agenda .conteudo .line { padding-bottom:50px; }
+section#agenda .conteudo .line:last-child { padding-bottom:0px; }
+section#agenda .conteudo .line .data { color:#009bdb;  font-family: 'Futura Std Book'; font-weight: bold; font-size: 30px; }
+section#agenda .conteudo .line .info { }
+section#agenda .conteudo .line .info p { text-transform: uppercase;  font-family: 'Futura Std';     font-weight: 300;  margin-bottom:0px; color:white; font-size:23px; }
+section#agenda .conteudo .line .info b {   font-family: 'Futura Std';     font-weight: 500;  }
+/* scrollbar :: width */
+section#agenda .conteudo::-webkit-scrollbar {     width: 1px; }
+/* scrollbar :: Track */
+section#agenda .conteudo::-webkit-scrollbar-track {     background: #a1a1a1;  }
+/* scrollbar :: Handle */
+section#agenda .conteudo::-webkit-scrollbar-thumb {     background: #f1f1f1; }
+/* scrollbar :: Handle on hover */
+section#agenda .conteudo::-webkit-scrollbar-thumb:hover {     background: #f1f1f1; }
+
+/* Section:noticias */
+section#noticias { position: relative; background-size: cover;background-position: top; }
+section#noticias .containerBody { position:relative; padding-top: 20px;     padding-bottom: 60px; }
+section#noticias .davi-logo { position: absolute; left: 4%; top:100px; z-index:200; }
+section#noticias .davi-logo img { width:322px; }
+section#noticias .menu-button { position: absolute; right: 7%; top:100px;  z-index:200; }
+section#noticias .menu-button i { cursor: pointer; color: #009cde; font-size: 50px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease;   -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; }
+section#noticias .menu-button i:hover { color:white; }
+section#noticias .davi-home {    position:relative; left:-9%; width: 100%;   color: white;     font-size: 18px;     text-align: justify;     line-height: 32px;  }
+section#noticias .davi-home > img { width:120%; }
+section#noticias .logo1 {  position:absolute;  top: 602px; right: 66px;}
+section#noticias .logo1 img { width:90%; }
+section#noticias .logo2 {  position:absolute; top: 500px; right: 44px; }
+section#noticias .logo2 img { width:83%; }
+section#noticias .title {    font-family: 'Futura Std Book'; position: absolute; top: 310px; right: 9%; font-size: 36px; text-transform: uppercase; font-style: italic;  color: white; }
+section#noticias .clickLer {  padding-top:20px;  padding-bottom: 30px;  font-family: 'Futura Std';font-weight: 300;color: #000000;font-size: 19px;}
+section#noticias .container-conteudo { padding-left:32px; padding-right:10px; position:relative; padding-bottom:20px; margin-bottom:20px;}
+section#noticias .container-conteudo .setaRolagem { position:absolute;      bottom: -10px; right: -2px; }
+section#noticias .conteudo {        overflow-y: scroll;max-height: 400px;padding: 0px;padding-right: 0px;padding-top: 5px;text-align: left; }
+section#noticias .conteudo .line a b {        font-style: normal; }
+section#noticias .conteudo .line a {     transition: all 0.6s ease; -webkit-transition: all 0.6s ease;   -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; font-style: italic; display:block;  color: #7b7b7b;margin-bottom: 28px;font-family: 'Futura Std';font-weight: 500; /* color: white; */font-size: 22px; }
+section#noticias .conteudo .line a:hover { text-decoration: underline; }
+section#noticias .conteudo .line:last-child a { margin-bottom:0px; }
+/* scrollbar :: width */
+section#noticias .conteudo::-webkit-scrollbar {     width: 1px; }
+/* scrollbar :: Track */
+section#noticias .conteudo::-webkit-scrollbar-track {     background: #a1a1a1;  }
+/* scrollbar :: Handle */
+section#noticias .conteudo::-webkit-scrollbar-thumb {     background: black; }
+/* scrollbar :: Handle on hover */
+section#noticias .conteudo::-webkit-scrollbar-thumb:hover {     background: #f1f1f1; }
+
+/* Section:Imprensa */
+section#imprensa { position: relative; background-size: cover;background-position: top; overflow:hidden; }
+section#imprensa .containerBody { position:relative; padding-top: 20px;     padding-bottom: 0px; }
+section#imprensa .davi-logo { position: absolute; left: 5%; top:100px; z-index:200; }
+section#imprensa .davi-logo img { width:315px; }
+section#imprensa .menu-button { position: absolute; right: 9%; top:100px;  z-index:200; }
+section#imprensa .menu-button i { cursor: pointer; color: #009cde; font-size: 50px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease;   -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; }
+section#imprensa .menu-button i:hover { color:white; }
+section#imprensa .davi-home {     position: absolute;left: -166%;bottom: -84px;width: 100%;max-width: 520px;color: white;font-size: 18px;text-align: justify;line-height: 32px;z-index: 1;}
+section#imprensa .davi-home > img { width:572%; }
+section#imprensa .title {    text-align:right; font-family: 'Futura Std Book'; position: absolute; top: 310px; right: 9%; font-size: 33px; text-transform: uppercase; font-style: italic;  color: white; }
+section#imprensa .conteudo {    position:relative; margin-top: 491px;padding-right: 88px;margin-bottom: 106px;     z-index: 5; }
+section#imprensa .conteudo .item { padding-bottom:70px; text-align:right; }
+section#imprensa .conteudo .item a { font-family: 'Futura Std Book'; color:white; font-size: 23px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease;   -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease;}
+section#imprensa .conteudo .item a:hover { color:#484848; }
+section#imprensa .conteudo .item img {     position: relative;top: -4px;padding-left: 14px;}
+section#imprensa .conteudo .contatoShows { text-align:right; padding-top:30px; }
+section#imprensa .conteudo .contatoShows .titleShows { font-family: 'Futura Std Book'; font-size: 29px; text-transform: uppercase; font-style: italic;  color: white;padding-bottom: 10px; }
+section#imprensa .conteudo .contatoShows .dados { padding-bottom: 40px;color: #000000;font-family: 'Futura Std Book';font-size: 18px;position: relative;left: 5px;font-weight: 300;}
+section#imprensa .conteudo .contatoShows .logoBase { padding-top:20px; }
+section#imprensa .conteudo .contatoShows .logoBase img { width:266px; }
+
+/* Section:Galeria */
+section#galeria { position: relative; background-size: cover;background-position: top; min-height:500px; }
+section#galeria .containerBody { position:relative; padding-top: 20px;     padding-bottom: 0px; }
+section#galeria .davi-logo { position: absolute; left: 5%; top:100px; z-index:200; }
+section#galeria .davi-logo img { width:315px; }
+section#galeria .menu-button { position: absolute; right: 5%; top:100px;  z-index:200; }
+section#galeria .menu-button i { cursor: pointer; color: #009cde; font-size: 50px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease;   -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; }
+section#galeria .menu-button i:hover { color:white; }
+section#galeria .davi-home {    position:relative; left:-29%; width: 100%;     max-width: 520px;       color: white;     font-size: 18px;     text-align: justify;     line-height: 32px;  }
+section#galeria .davi-home > img { width:230%; }
+section#galeria .logo1 {  position:absolute;  top: 602px; right: 66px;}
+section#galeria .logo1 img { width:90%; }
+section#galeria .logo2 {  position:absolute; top: 500px; right: 44px; }
+section#galeria .logo2 img { width:83%; }
+section#galeria .galeriaMenu { font-family: 'Futura Std Book'; position: absolute; top: 370px; right: 5%;  text-transform: uppercase; font-style: italic;  color: white; }
+section#galeria .galeriaMenu ul { list-style: none; }
+section#galeria .galeriaMenu ul li { display:inline-block; margin-right:65px; }
+section#galeria .galeriaMenu ul li a.active { font-weight: bold; }
+section#galeria .galeriaMenu ul li a:hover { font-weight: bold; }
+section#galeria .galeriaMenu ul li:last-child { margin-right:0px; }
+section#galeria .galeriaMenu ul li a {   color:white; font-size:18px; }
+section#galeria .conteudo {    position:relative; margin-top: 485px; padding-right: 3.6%; padding-left:3.6%; margin-bottom: 150px;     z-index: 5; }
+section#galeria .conteudo .owl-theme .owl-item img {     display: block;     width: 100%;     height: 700px;     object-fit: cover; }
+section#galeria .conteudo .owl-theme .owl-dots { text-align: center;     -webkit-tap-highlight-color: transparent;     max-width: 100%;     overflow-y: auto;     margin: 0 auto;     white-space: nowrap; margin-top:2px; }
+
+/* scrollbar :: width */
+section#galeria .conteudo .owl-theme .owl-dots::-webkit-scrollbar {     height: 5px; }
+
+/* scrollbar :: Track */
+section#galeria .conteudo .owl-theme .owl-dots::-webkit-scrollbar-track {     background: #a1a1a1;  }
+
+/* scrollbar :: Handle */
+section#galeria .conteudo .owl-theme .owl-dots::-webkit-scrollbar-thumb {     background: black; }
+
+/* scrollbar :: Handle on hover */
+section#galeria .conteudo .owl-theme .owl-dots::-webkit-scrollbar-thumb:hover {     background: #f1f1f1; }
+
+/* Todos direitos reservados */
+div.direitosReservados {  }
+div.direitosReservados .container { text-align:center; font-size:12px; }
+div.direitosReservados .container span { position: relative;     top: -15px;  color:#646464;    left: -25px;     font-size: 12px;     letter-spacing: 1px; }
+ 
+/* Rodapé Principal */
+footer#rodape_principal {  width:100%;  z-index:999; position:relative; }
+footer#rodape_principal .direitosReservados { position:absolute; top:-23px; width:100%; }
+footer#rodape_principal .contatosParaShow { position:relative; display:table; }
+footer#rodape_principal .contatosParaShow img { width:270px; }
+footer#rodape_principal .contatosParaShow span { position: absolute;     top: 1px;     left: 108%;     color: white; }
+footer#rodape_principal .socialIcons { position: absolute;     top: 0px;     right: 15px; }
+footer#rodape_principal .socialIcons span { margin-left:45px; }
+footer#rodape_principal .socialIcons span img {     height: 35px;     position: relative;     transition: all 0.7s ease-out;     top: 5px; }
+footer#rodape_principal .socialIcons span img:hover {  transform: rotate(360deg); }
+

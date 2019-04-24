@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-ExtraBold.eot');
+    src: url('FuturaStd-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('FuturaStd-ExtraBold.woff2') format('woff2'),
+        url('FuturaStd-ExtraBold.woff') format('woff'),
+        url('FuturaStd-ExtraBold.ttf') format('truetype'),
+        url('FuturaStd-ExtraBold.svg#FuturaStd-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+

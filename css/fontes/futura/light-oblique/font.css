@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-LightOblique.eot');
+    src: url('FuturaStd-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('FuturaStd-LightOblique.woff2') format('woff2'),
+        url('FuturaStd-LightOblique.woff') format('woff'),
+        url('FuturaStd-LightOblique.ttf') format('truetype'),
+        url('FuturaStd-LightOblique.svg#FuturaStd-LightOblique') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+

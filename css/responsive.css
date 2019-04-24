@@ -1,0 +1,368 @@
+/* ****************************************************************
+			FRONT E BACK-END BY GABRIEL A. BARBOSA
+			E-MAIL: gabrielbarbosaweb7@gmail.com
+			SITE: http://gabrieldaluz7.co.nf/
+			DATA INICIO: 01-05-2018
+**************************************************************** */
+
+
+@media only screen and (max-width: 1199px) { 
+
+	/* pageContainer */
+	section.pageContainer { padding-bottom: 25px; }
+
+	/* Menu */
+	section#menu .davi-logo { left: 11.5%; }	
+	section#menu .davi-logo img {     width: 250px; }
+	section#menu .menu-text a { font-size: 20px;margin-bottom: 7px; }
+	section#menu .menu-text { left: 46%; }
+	section#menu .davi-menu img {     width: 111%;     position: relative;     left: 27px; }
+	
+	/* home */
+	section#home .davi-logo img {     width: 290px; }
+	section#home .davi-home img {     width: 117%; }
+
+	/* biografia */
+	section#biografia .davi-home { max-width: 411px;     padding-left: 0px; }
+	section#biografia .davi-logo { left: 1.5%; }
+	section#biografia .davi-logo img { width: 290px; }
+
+	/* taEmCasa */
+	section#taemcasa .cdTitle { padding-top: 301px; }
+	section#taemcasa .containerBody {     padding-left: 15px; padding-right: 15px; } 
+	section#taemcasa .davi-capa {     padding-top: 39px; }
+	section#taemcasa .menu-button { top: 60px;right: 22px; }
+	section#taemcasa .player-controls { width:100%; }
+	section#taemcasa .playlist ul { padding-right:1px; }
+	section#taemcasa { padding-bottom: 50px; }
+
+	/* agenda */
+	section#agenda .davi-home > img { width: 125%; position: relative; top: 40px; } 
+	section#agenda .davi-home { padding-top: 180px;  }
+	section#agenda .davi-logo img {width: 240px; }
+
+	/* Galeria */
+	section#galeria .galeriaMenu { top: 369px; }
+	section#galeria .galeriaMenu ul li { margin-right: 37px; }
+	section#galeria .conteudo { margin-top: 434px;    margin-bottom: 85px; }
+
+	/* Noticias */
+	section#noticias .conteudo { padding-right: 30px; }
+	section#noticias .conteudo .line a { font-size: 20px; }
+
+	/* Imprensa */
+	section#imprensa .davi-home > img {     width: 432%;  }
+
+	/* Parceiros */
+	section#parceiros .menu-button {      right: 6%; }
+	section#parceiros .title {  right: 6%; }
+	section#parceiros .davi-home > img { width: 170%; }
+	section#parceiros .davi-home{     bottom: -50px; left: -28%;margin-top: 150px; }
+	section#parceiros .logo2, section#parceiros .logo1 {     text-align: right; right: 6%; } 
+
+
+}
+
+@media only screen and (max-width: 991px) { 
+
+	/* Menu */
+	section#menu .davi-logo { left: 5%; top: 73px; }
+	section#menu .menu-button { top: 73px; right: 10%;}
+	section#menu .menu-text { top: 73px; }
+	section#menu .davi-menu img { }
+	
+	/* home */
+	section#home .menu-button { top: 73px; }
+	section#home .davi-home { left: 30%;      padding-top: 10px;     padding-bottom: 9px; }
+	section#home .davi-logo { top: 73px; }
+	section#home .davi-logo img {     width: 240px; }
+	
+	/* footer */
+	footer#rodape_principal .contatosParaShow span { font-size: 13px; top: -3px; left: 107%;}
+	footer#rodape_principal .contatosParaShow img {     width: 210px; }
+	footer#rodape_principal .socialIcons span img { top: 3px; height: 25px; }
+	footer#rodape_principal .socialIcons span {     margin-left: 18px; }
+
+	/* biografia */
+	section#biografia .davi-home { max-width: 100%; width: 95%; padding-left: 0px; padding: 10px 22px; background-color: rgba(0,0,0,0.4); border-radius: 12px; margin: 0 auto; }
+	section#biografia .containerBody { padding-bottom: 37px; }	
+	section#biografia .menu-button { right: 1.5%; }
+
+	/* taEmCasa */
+	section#taemcasa .davi-capa { width: 70%; }
+	section#taemcasa .cdTitle {     padding-top: 11px; padding-left: 7px; }
+	section#taemcasa .player-controls {     padding-left: 7px;  }
+	section#taemcasa .player-controls .bar2 .col {     width: 19%;    text-align: center;margin-right:0px; }
+	section#taemcasa .player-controls .bar2 {     padding-top: 20px; }
+	section#taemcasa .playlist { padding-top: 22px; }
+
+	/* Agenda */
+	section#agenda .davi-logo { top: 50px; }
+	section#agenda .menu-button { top: 48px; right: 39px; }
+	section#agenda .davi-home > img {   width: 114%;  top: 72px; left: -149px; }
+	section#agenda .title {  right: 39px; }
+	section#agenda .container-conteudo { top: 450px;     right: 39px; }
+	section#agenda .conteudo .line .data { font-size: 26px; }
+	section#agenda .conteudo .line .info p { font-size: 21px; }
+	section#agenda .davi-home { padding-top: 205px; }
+
+	/* Galeria */
+	section#galeria .davi-logo {  top:50px; }
+	section#galeria .menu-button { top: 48px; right: 39px; }
+	section#galeria .davi-logo img {width: 235px; }
+	section#galeria .galeriaMenu {top: 319px; right:0px;   width: 100%; text-align: center; } 
+	section#galeria .galeriaMenu ul { padding-left:0px;  }
+	section#galeria .conteudo { margin-top: 364px; }
+	section#galeria .conteudo .owl-theme .owl-item img { height: 450px; }
+
+	/* Noticias */
+	section#noticias .conteudo .line a {     font-size: 17px; margin-bottom: 15px; }
+	section#noticias .davi-logo img { width: 235px; }
+	section#noticias .davi-home > img{ width: 95%; }
+	section#noticias .davi-home { left: 2.5%; }
+	section#noticias .title {     text-shadow: 0px 0px 10px grey; }
+
+	/* Imprensa */
+	section#imprensa .davi-home > img { width: 300%; }
+	section#imprensa .conteudo {      margin-top: 451px;     padding-right: 43px;margin-bottom: 76px; }
+	section#imprensa .conteudo .item {     padding-bottom: 75px; }
+
+	/* Parceiros  */ 
+	section#parceiros .davi-home { bottom: -50px; left: -50%; margin-top: 340px; } 
+	section#parceiros .davi-home > img { width: 120%; }
+
+
+}
+
+@media only screen and (max-width: 767px) { 
+
+	/* pageContainer */
+	section.pageContainer { display:block !important; opacity:1 !important; }
+	
+	/* menu */
+	section#menu {     position: absolute;     display: none;     top: 0px;     left: 0px;     width: 100%;     height: 100%;     background: rgba(0,0,0,0.7);     z-index: 886;}
+	section#menu .davi-logo img { display:none; }
+	section#menu .davi-menu img { display:none; }
+	section#menu .menu-text {     left: 8%; }
+	section#menu .menu-text a {     font-size: 38px;     margin-bottom: 23px; }
+
+	/* Biografia */
+	section#biografia .davi-logo {left: 52px; }
+	section#biografia .menu-button {right: 50px; }
+
+	/* taEmCasa */
+	section#taemcasa .davi-capa {padding-top: 0px; }
+	section#taemcasa .menu-button {     top: 17px; }
+	section#taemcasa .playlist ul a { padding-right: 56px;     font-size: 15px; }
+
+	/* noticias */
+	section#noticias .davi-logo {     top: 30px;  }
+	section#noticias .menu-button {     top: 30px;  }
+	section#noticias .title { top: 210px; }
+
+	/* Imprensa */
+	section#imprensa .davi-logo {  top: 35px; }
+	section#imprensa .menu-button {   top: 32px; }
+	section#imprensa .davi-logo img{ width: 245px;  }
+	section#imprensa .title { top: 182px; }
+	section#imprensa .conteudo {      margin-top: 326px; }
+	section#imprensa .conteudo .item { padding-bottom: 70px; }
+
+	/* Parceiros */
+	section#parceiros .menu-button { top: 32px; }
+	section#parceiros .davi-logo { top: 33px; }
+	section#parceiros .davi-logo img { width: 225px; }
+	section#parceiros .title { top: 199px; }
+	section#parceiros .davi-home {  margin-top: 180px;     left: -37%;}
+	section#parceiros .logo1 { top: 532px; }
+	section#parceiros .logo2 { top: 405px; }
+
+}
+
+@media only screen and (max-width: 690px) { 
+
+	/* Home */
+	section#home .davi-logo img {     width: 200px; }
+	
+	/* menu */
+	section#menu .menu-text a {     font-size: 32px;  margin-bottom: 18px;  }
+		
+	/* footer */
+	footer#rodape_principal .socialIcons { position: relative; padding-top: 15px;     padding-bottom: 5px; text-align: center; }
+	footer#rodape_principal .contatosParaShow { padding-top:10px; display:block; text-align:center; }
+	footer#rodape_principal .contatosParaShow span  {    padding-top:15px; padding-bottom:3px; display: block;     position: relative;     text-align: center;  top: 0px;   left: 0px;}
+
+	/* biografia */
+	section#biografia .davi-logo img {width: 230px; }
+	section#biografia .containerBody {     padding-top: 360px; }
+	section#biografia .davi-logo { top: 30px; }
+	section#biografia .menu-button { top: 30px; }
+	section#biografia .containerBody {padding-top: 290px; }
+
+	/* Agenda */
+	section#agenda .davi-home > img {width: 104%; top:42px;  left: -260px; }
+	section#agenda .davi-logo img { width: 180px; }
+	section#agenda .title { top: 260px; }
+	section#agenda .container-conteudo {     top: 350px; }
+
+	/* Galeria */
+	section#galeria .conteudo .owl-theme .owl-item img {     height: 380px; }
+	section#galeria .davi-logo img {  width: 175px; }
+	section#galeria .galeriaMenu { top: 259px;     padding: 0px 43px;}
+	section#galeria .conteudo { margin-top: 305px; }
+	section#galeria .galeriaMenu ul li a {     font-size: 16px; }
+	section#galeria .galeriaMenu ul li { margin-right: 26px; }
+
+	/* Imprensa */
+	section#imprensa .davi-home > img {  width: 270%; }
+
+}
+
+@media only screen and (max-width: 593px) { 
+
+	/* menu */
+	section#menu .menu-text a {     font-size: 28px;  margin-bottom: 18px;  }
+
+	/* galeria */
+	section#galeria .galeriaMenu ul li { margin-bottom: 10px; }
+	section#galeria .conteudo { margin-top: 321px; }
+	section#galeria .conteudo .owl-theme .owl-item img { height: 310px;  }
+
+	/* Imprensa */
+	section#imprensa .davi-home > img { width: 260%; }
+	section#imprensa .davi-home {     left: -186%; bottom: -14px; }
+	section#imprensa .davi-logo img {     width: 165px; }
+	section#imprensa .title { font-size: 29px;  }
+	section#imprensa .conteudo .item a { font-size: 18px; }
+	section#imprensa .conteudo .contatoShows .titleShows {     font-size: 24px; }
+	section#imprensa .conteudo .contatoShows .dados {     font-size: 17px; }
+
+}
+
+@media only screen and (max-width: 556px) { 
+
+	/* Home */
+	section#home .davi-logo img {     width: 155px; }
+	section#home .davi-logo {     top: 24px; }
+	section#home .menu-button {  top: 24px; }
+	section#home .davi-home img {     width: 108%; }
+	section#home .davi-home {     left: 34%;     padding-bottom: 19px; }
+	
+	/* menu */
+	section#menu .menu-button {  top: 24px; }
+	section#menu .menu-text {  top: 24px;  }
+	section#menu .menu-text a {     font-size: 22px;  margin-bottom: 15px;  }
+	
+	/* direitosReservados */
+	div.direitosReservados .container span { left: 0px;     top: -9px;     font-size: 11px;}
+
+	/* Agenda */
+	section#agenda .conteudo .line .data {     font-size: 22px; }
+	section#agenda .conteudo .line .info p {     font-size: 18px; }
+	section#agenda .conteudo .line { padding-bottom: 25px; }
+
+	/* Noticias */
+	section#noticias .davi-logo img { width: 165px; }
+	section#noticias .title {     font-size: 29px; }
+
+	/* imprensa */
+	section#imprensa .davi-home > img {     width: 230%; }
+	section#imprensa .title {      top: 212px;}
+
+	/* Parceiros */
+	section#parceiros .davi-logo img {     width: 155px; }
+	section#parceiros .davi-home { left: -63%; }
+	section#parceiros .logo1 img {     width: 89%; }
+	section#parceiros .logo2 img { width: 72%; }
+
+}
+
+@media only screen and (max-width: 498px) {  
+
+	/* Biografia */
+	section#biografia .davi-logo img {width: 180px; }
+	section#biografia .containerBody {padding-top: 240px; } 
+	section#biografia .davi-logo {left: 30px; }
+	section#biografia .menu-button {right: 30px; }
+
+	/* galeria */
+	section#galeria .conteudo .owl-theme .owl-item img { height: 255px; }
+	section#galeria .conteudo { margin-bottom: 45px; }
+
+	/* Noticias */
+	section#noticias .conteudo .line a { font-size: 16px; margin-bottom: 23px; }
+	section#noticias .clickLer { font-size: 14px; }
+
+	/* Parceiros */
+	section#parceiros .davi-home{ left: -85%; }
+
+}
+
+@media only screen and (max-width: 425px) {  
+
+	/* Home */
+	section#home .davi-logo img {        width: 39%; }
+	
+	/* menu */
+	section#menu .menu-text a {     font-size: 20px;  margin-bottom: 12px;  }
+
+	/* taEmCasa */
+	section#taemcasa .player-controls .bar2 .col { width: 18%; }
+
+	/* Agenda */
+	section#agenda .conteudo { max-height: 340px; }
+	section#agenda .davi-home > img { left: -211px; }
+	section#agenda .davi-logo img {width: 160px; }
+
+	/* Galeria */
+	section#galeria .conteudo { margin-top: 351px; }
+	section#galeria .davi-logo img { width: 148px;  }
+
+	/* Noticias*/
+	section#noticias .davi-home > img {     width: 125%; }
+	section#noticias .davi-home {     left: -11.5%; }
+	section#noticias .container-conteudo {     padding-left: 12px; }
+
+	/* Imprensa */
+	section#imprensa .conteudo .contatoShows .logoBase img { width: 206px; }
+	section#imprensa .conteudo .contatoShows .titleShows { font-size: 22px; }
+	section#imprensa .conteudo .contatoShows .dados { font-size: 16px; }
+	section#imprensa .conteudo .item img { width: 42px; }
+	section#imprensa .conteudo .item a{ font-size: 17px; }
+
+	/* Parceiros */
+	section#parceiros .davi-home { margin-top: 440px; left: 8%;}
+	section#parceiros .davi-home > img{ width: 80%; }
+	section#parceiros .logo2 { top: 335px; }
+	section#parceiros .logo1 { top: 442px; }
+
+
+}
+
+@media only screen and (max-width: 375px) {  
+	
+	/* menu */
+	section#menu .menu-text a {     font-size: 17px;  margin-bottom: 12px;  }
+
+	/* Biografia */
+	section#biografia .davi-logo img {width: 150px; }
+
+	/* Agenda */
+	section#agenda .conteudo { max-height: 280px; }
+	
+	/* Noticias */
+	section#noticias .title { font-size: 29px; }
+
+	/* Parceiros */
+	section#parceiros .davi-home { margin-top: 320px; }
+
+
+}
+
+@media only screen and (max-width: 321px) {  
+
+	/* Imprensa */
+	section#imprensa .davi-home { display: none; }
+	section#imprensa .conteudo {     padding-right: 13px; }
+
+}

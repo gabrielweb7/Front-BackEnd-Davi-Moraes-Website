@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Futura Std Book';
+    src: url('FuturaStd-BoldOblique.eot');
+    src: url('FuturaStd-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('FuturaStd-BoldOblique.woff2') format('woff2'),
+        url('FuturaStd-BoldOblique.woff') format('woff'),
+        url('FuturaStd-BoldOblique.ttf') format('truetype'),
+        url('FuturaStd-BoldOblique.svg#FuturaStd-BoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('Futura-Oblique.eot');
+    src: url('Futura-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('Futura-Oblique.woff2') format('woff2'),
+        url('Futura-Oblique.woff') format('woff'),
+        url('Futura-Oblique.ttf') format('truetype'),
+        url('Futura-Oblique.svg#Futura-Oblique') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
